@@ -20,21 +20,21 @@ const ContactState = props => {
         name: 'Sasho',
         email: 'sashs@sadas.coasd',
         phone: '232-231231',
-        type: 'prof'
+        type: 'personal'
       },
       {
         id: 2,
         name: 'Gosho',
         email: 'sashs@sadas.coasd',
         phone: '232-231231',
-        type: 'prof'
+        type: 'personal'
       },
       {
         id: 3,
         name: 'Tosho',
         email: 'sashs@sadas.coasd',
         phone: '232-231231',
-        type: 'prof'
+        type: 'professional'
       },
     ]
   };
