@@ -81,7 +81,7 @@ const AuthState = (props) => {
         type: LOGIN_SUCCESS,
         payload: res.data,
       });
-      
+
       loadUser();
     } catch (err) {
       dispatch({
@@ -92,9 +92,7 @@ const AuthState = (props) => {
   };
 
   // Logout
-  const logout = () => {
-    console.log('load');
-  };
+  const logout = () => dispatch({ type: LOGOUT });
 
   // Clear Errors
   const clearErrors = () => dispatch({ type: CLEAR_ERRORS });
